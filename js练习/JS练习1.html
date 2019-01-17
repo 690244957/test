@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+	//变量交换的第一个思路
+	// var num1=10;
+	// var num2=20;
+	// //把num1这个变量的值取出来放在temp变量中
+	// var temp;
+	// var temp=num1;
+	// //把num2这个变量的值取出来放在num1变量中
+	// num1=num2;
+	// //把temp变量的值取出来放在num2变量中
+ //    num2=temp;
+ //    console.log(num1);
+ //    console.log(num2);
+    var num1=10;
+    var num1=20;
+    var str1="www";
+    console.log(num1);
+    console.log(str1);
+    console.log(typeof(str1));
+       //字符串的拼接: 使用+可以把多个字符串放在一起形成一个字符串
+    //只要有一个是字符串,其他的是数字,那么结果也是拼接,不是相加
+    //如果有一个是字符串,另一个不是字符串,使用- 号,此时会发生计算
+    //    var str1="您好";
+    //    var str2="我好";
+    //    console.log(str1+str2);
+
+    //console.log("哈哈"+"嘎嘎"+"嘿嘿");
+    //    var str1="10";
+    //    var str2="20";
+    //    console.log(str1+str2);
+
+    //    var str1="10";
+    //    var str2=20;
+    //    console.log(str1+str2);
+
+
+//    var str1 = "10";
+//    var str2 = 5;
+//    //浏览器帮助我们自动的把字符串类型转成了数字类型,这种方式叫:隐式转换
+//    console.log(str1-str2);
+
+   var str1="10";
+   var str2=5;
+   console.log(str1*str2);
+   var str3 = "10";
+   var str4 = 5;
+//    //浏览器帮助我们自动的把字符串类型转成了数字类型,这种方式叫:隐式转换
+   console.log(str3-str4);
+   console.log(parseInt('4'));
+   console.log(parseFloat('4'));
+   var flag=false;
+   console.log(!flag);
+   console.log(5>0&&4>2);
+   console.log(5>0||0>3);
+   var variable=1;
+   console.log(Boolean(variable));
+   var variable2=0;
+   console.log(Boolean(variable2));
+   var variable3=-1;
+   console.log(Boolean(variable3));
+   var num1=20;
+   var result1=num1/3;//num变量与3取余--->10/3的商
+   console.log(parseInt(result1));
+
+
+   var num2=20;
+   var result2=num2%3;//num变量与3取余--->10/3的余数
+   console.log(result2);
+   result2+=10;
+   console.log(result2);
+   var result3=0;
+   result3 %=3;
+   console.log(result3);
+   result4 =12%4;
+   console.log(result4);
+   var result5=12;
+   result5/=3
+   console.log(result5);
+   var a = 1;
+   b = a ++;
+   console.log('a='+a + '  ' + 'b='+b);
+
+
+	</script>
+</body>
+</html>
